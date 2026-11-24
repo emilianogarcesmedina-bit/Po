@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Inter, sans-serif">
+  <defs>
+    <clipPath id="card"><rect x="2" y="2" width="996" height="996" rx="36"/></clipPath>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff4354"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="#ffffff"/>
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="1000" height="270" fill="#e6f2fb"/>
+    <rect x="0" y="800" width="1000" height="200" fill="#fbe7b5"/>
+    <g fill="#f6d68c" opacity="0.7">
+      <circle cx="150" cy="880" r="30"/><circle cx="820" cy="900" r="36"/><circle cx="640" cy="950" r="26"/><circle cx="330" cy="960" r="24"/>
+    </g>
+  </g>
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="none" stroke="#ffc2cf" stroke-width="4"/>
+
+  <!-- Pared del bulbo -->
+  <circle cx="500" cy="500" r="205" fill="#f2a7a5" stroke="#d9534f" stroke-width="6"/>
+  <circle cx="500" cy="500" r="148" fill="#fdeaea" stroke="#e58b88" stroke-width="4"/>
+
+  <!-- Úlcera anterior perforada -->
+  <path d="M 482 290 L 476 300 L 486 330 L 480 356 L 520 356 L 514 330 L 524 300 L 518 290 Z" fill="#6e1c1c"/>
+  <g fill="#9cc7e8">
+    <circle cx="500" cy="250" r="9"/><circle cx="520" cy="218" r="7"/><circle cx="485" cy="196" r="6"/>
+  </g>
+  <path d="M 500 240 L 500 170" stroke="#ff4354" stroke-width="5" marker-end="url(#ar)"/>
+
+  <!-- Úlcera posterior -->
+  <path d="M 440 648 C 460 660, 470 690, 490 700 L 510 700 C 530 690, 540 660, 560 648 Z" fill="#7a2222"/>
+  <!-- A. gastroduodenal -->
+  <circle cx="500" cy="742" r="34" fill="#d32f2f" stroke="#8e1b1b" stroke-width="5"/>
+  <path d="M 486 712 L 500 704 L 514 712" fill="none" stroke="#fff" stroke-width="4"/>
+  <!-- Sangrado -->
+  <g fill="#c62828">
+    <path d="M 500 600 c -10 14, -10 24, 0 24 c 10 0, 10 -10, 0 -24 z"/>
+    <path d="M 470 560 c -8 11, -8 19, 0 19 c 8 0, 8 -8, 0 -19 z"/>
+    <path d="M 530 570 c -8 11, -8 19, 0 19 c 8 0, 8 -8, 0 -19 z"/>
+  </g>
+
+  <!-- Etiquetas -->
+  <g font-size="22" fill="#2b2b2b">
+    <text x="40" y="60" font-weight="800" fill="#4a7ea8">Cavidad peritoneal</text>
+    <text x="40" y="92" font-size="19" fill="#4a7ea8">▲ Anterior</text>
+
+    <text x="560" y="90" font-weight="800" fill="#ff4354">Úlcera anterior</text>
+    <text x="560" y="120">perforación →</text>
+    <text x="560" y="150" font-weight="800">peritonitis</text>
+    <line x1="555" y1="160" x2="512" y2="292" stroke="#6b6b6b" stroke-width="2"/>
+
+    <text x="500" y="495" text-anchor="middle" font-weight="800" fill="#b04a48">Luz del bulbo</text>
+    <text x="500" y="523" text-anchor="middle" font-size="19" fill="#7a4a4a">(&lt; 3 cm del píloro)</text>
+
+    <text x="725" y="600" font-weight="800" fill="#ff4354">Úlcera posterior</text>
+    <text x="725" y="630">erosiona la</text>
+    <text x="725" y="660">a. gastroduodenal</text>
+    <text x="725" y="690" font-weight="800">→ hemorragia grave</text>
+    <line x1="720" y1="612" x2="560" y2="660" stroke="#6b6b6b" stroke-width="2"/>
+
+    <text x="40" y="735" font-weight="800" fill="#c62828">A. gastroduodenal</text>
+    <line x1="245" y1="728" x2="462" y2="740" stroke="#6b6b6b" stroke-width="2"/>
+
+    <text x="500" y="868" text-anchor="middle" font-weight="800" fill="#8a6300">Cabeza del páncreas</text>
+    <text x="500" y="900" text-anchor="middle" font-size="19" fill="#5a4300">la úlcera posterior puede penetrar → dolor irradiado a la espalda</text>
+    <text x="40" y="975" font-size="19" fill="#8a6300">▼ Posterior</text>
+  </g>
+</svg>

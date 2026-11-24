@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Inter, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e8b57"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="#ffffff" stroke="#ffc2cf" stroke-width="4"/>
+
+  <rect x="330" y="40" width="340" height="80" rx="40" fill="#f7b6b2" stroke="#d9534f" stroke-width="4"/>
+  <text x="500" y="92" text-anchor="middle" font-size="30" font-weight="800" fill="#8e2a27">Duodeno</text>
+  <path d="M 420 120 L 280 175" stroke="#2e8b57" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+  <path d="M 580 120 L 720 175" stroke="#2e8b57" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+
+  <!-- Columnas -->
+  <rect x="50" y="185" width="420" height="64" rx="32" fill="#2e8b57"/>
+  <text x="260" y="227" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">Vasos anteriores</text>
+  <rect x="530" y="185" width="420" height="64" rx="32" fill="#2e8b57"/>
+  <text x="740" y="227" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">Vasos posteriores</text>
+
+  <line x1="260" y1="249" x2="260" y2="285" stroke="#2e8b57" stroke-width="6" marker-end="url(#ar)"/>
+  <line x1="740" y1="249" x2="740" y2="285" stroke="#2e8b57" stroke-width="6" marker-end="url(#ar)"/>
+
+  <!-- Izquierda -->
+  <rect x="50" y="295" width="420" height="150" rx="22" fill="#e3f4e9" stroke="#2e8b57" stroke-width="4"/>
+  <circle cx="92" cy="360" r="16" fill="#3aa655" stroke="#1f6b3d" stroke-width="3"/>
+  <text x="122" y="350" font-size="23" font-weight="800" fill="#1f6b3d">Nódulos</text>
+  <text x="122" y="378" font-size="23" font-weight="800" fill="#1f6b3d">pancreaticoduodenales</text>
+  <text x="122" y="406" font-size="18" fill="#444">a lo largo de las arterias</text><text x="122" y="428" font-size="18" fill="#444">pancreaticoduodenales</text>
+
+  <rect x="50" y="460" width="420" height="115" rx="22" fill="#e3f4e9" stroke="#2e8b57" stroke-width="4"/>
+  <circle cx="92" cy="517" r="16" fill="#3aa655" stroke="#1f6b3d" stroke-width="3"/>
+  <text x="122" y="512" font-size="23" font-weight="800" fill="#1f6b3d">Nódulos pilóricos</text>
+  <text x="122" y="542" font-size="18" fill="#444">a lo largo de la a. gastroduodenal</text>
+
+  <!-- Derecha -->
+  <rect x="530" y="295" width="420" height="150" rx="22" fill="#ffffff" stroke="#2e8b57" stroke-width="4" stroke-dasharray="10 6"/>
+  <text x="740" y="360" text-anchor="middle" font-size="21" font-style="italic" fill="#1f6b3d">pasan por detrás de la</text>
+  <text x="740" y="388" text-anchor="middle" font-size="21" font-style="italic" fill="#1f6b3d">cabeza del páncreas</text>
+  <line x1="740" y1="445" x2="740" y2="455" stroke="#2e8b57" stroke-width="6" marker-end="url(#ar)"/>
+  <rect x="530" y="460" width="420" height="115" rx="22" fill="#e3f4e9" stroke="#2e8b57" stroke-width="4"/>
+  <circle cx="572" cy="517" r="16" fill="#3aa655" stroke="#1f6b3d" stroke-width="3"/>
+  <text x="602" y="510" font-size="23" font-weight="800" fill="#1f6b3d">Nódulos mesentéricos</text>
+  <text x="602" y="538" font-size="23" font-weight="800" fill="#1f6b3d">superiores</text>
+
+  <!-- Convergencia -->
+  <path d="M 260 575 L 420 652" stroke="#2e8b57" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+  <path d="M 740 575 L 580 652" stroke="#2e8b57" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+  <rect x="330" y="660" width="340" height="64" rx="32" fill="#ffffff" stroke="#2e8b57" stroke-width="4"/>
+  <text x="500" y="701" text-anchor="middle" font-size="24" font-weight="800" fill="#1f6b3d">Vasos eferentes</text>
+  <line x1="500" y1="724" x2="500" y2="770" stroke="#2e8b57" stroke-width="6" marker-end="url(#ar)"/>
+  <rect x="250" y="780" width="500" height="100" rx="50" fill="#2e8b57"/>
+  <circle cx="320" cy="830" r="20" fill="#7fd39b" stroke="#fff" stroke-width="3"/>
+  <text x="520" y="843" text-anchor="middle" font-size="34" font-weight="800" fill="#ffffff">Nódulos celíacos</text>
+
+  <text x="500" y="945" text-anchor="middle" font-size="21" fill="#555" font-style="italic">Los vasos linfáticos siguen el trayecto de las arterias</text>
+</svg>

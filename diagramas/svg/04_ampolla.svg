@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Inter, sans-serif">
+  <defs>
+    <clipPath id="card"><rect x="2" y="2" width="996" height="996" rx="36"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="#ffffff"/>
+  <g clip-path="url(#card)">
+    <!-- Luz del duodeno -->
+    <rect x="0" y="0" width="270" height="1000" fill="#fdecec"/>
+    <!-- Pared duodenal -->
+    <rect x="270" y="0" width="80" height="1000" fill="#f2a7a5"/>
+    <rect x="270" y="0" width="80" height="1000" fill="none" stroke="#d9534f" stroke-width="4"/>
+    <!-- Pliegues circulares -->
+    <g fill="#f2a7a5" stroke="#d9534f" stroke-width="3">
+      <path d="M 270 120 q -40 20 0 40"/>
+      <path d="M 270 230 q -40 20 0 40"/>
+      <path d="M 270 520 q -40 20 0 40"/>
+      <path d="M 270 760 q -40 20 0 40"/>
+      <path d="M 270 870 q -40 20 0 40"/>
+    </g>
+    <!-- Cabeza del páncreas -->
+    <rect x="350" y="0" width="650" height="1000" fill="#fbe7b5"/>
+    <g fill="#f6d68c" opacity="0.6">
+      <circle cx="480" cy="150" r="34"/><circle cx="640" cy="230" r="40"/><circle cx="860" cy="170" r="36"/>
+      <circle cx="820" cy="520" r="38"/><circle cx="560" cy="860" r="40"/><circle cx="880" cy="870" r="34"/>
+      <circle cx="700" cy="560" r="28"/><circle cx="460" cy="560" r="30"/>
+    </g>
+  </g>
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="none" stroke="#ffc2cf" stroke-width="4"/>
+
+  <!-- Conducto colédoco -->
+  <path d="M 640 0 C 600 200, 470 460, 380 600 C 360 630, 340 642, 318 646" fill="none" stroke="#1f7a46" stroke-width="40" stroke-linecap="butt"/>
+  <path d="M 640 0 C 600 200, 470 460, 380 600 C 360 630, 340 642, 318 646" fill="none" stroke="#43b072" stroke-width="30"/>
+
+  <!-- Conducto pancreático principal -->
+  <path d="M 1000 720 C 860 700, 600 740, 420 690 C 380 678, 350 664, 320 652" fill="none" stroke="#b5791c" stroke-width="28"/>
+  <path d="M 1000 720 C 860 700, 600 740, 420 690 C 380 678, 350 664, 320 652" fill="none" stroke="#e9a93f" stroke-width="20"/>
+  <g stroke="#e9a93f" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M 820 708 l 40 -60"/><path d="M 700 724 l 30 70"/><path d="M 580 722 l -10 80"/><path d="M 900 714 l 30 60"/>
+  </g>
+
+  <!-- Conducto pancreático accesorio -->
+  <path d="M 760 450 C 640 430, 480 410, 350 400" fill="none" stroke="#b5791c" stroke-width="18"/>
+  <path d="M 760 450 C 640 430, 480 410, 350 400" fill="none" stroke="#e9a93f" stroke-width="11"/>
+  <path d="M 640 440 C 660 540, 640 640, 640 720" fill="none" stroke="#e9a93f" stroke-width="7" stroke-dasharray="10 8"/>
+
+  <!-- Ampolla hepatopancreática -->
+  <ellipse cx="300" cy="648" rx="38" ry="30" fill="#8fbf4a" stroke="#5e8a26" stroke-width="5"/>
+  <!-- Papila mayor -->
+  <path d="M 272 612 C 222 618, 210 678, 272 684 Z" fill="#e57373" stroke="#b03b3b" stroke-width="4"/>
+  <circle cx="238" cy="648" r="7" fill="#7a1f1f"/>
+  <!-- Papila menor -->
+  <path d="M 272 384 C 240 388, 236 416, 272 420 Z" fill="#e57373" stroke="#b03b3b" stroke-width="4"/>
+  <circle cx="252" cy="402" r="5" fill="#7a1f1f"/>
+  <path d="M 270 400 L 350 400" stroke="#e9a93f" stroke-width="9"/>
+
+  <!-- Etiquetas -->
+  <g font-size="23" fill="#2b2b2b">
+    <text x="660" y="60" font-weight="700" fill="#1f7a46">Conducto colédoco</text>
+
+    <text x="560" y="380" font-weight="700" fill="#9a5f08">Conducto pancreático</text>
+    <text x="560" y="406" font-weight="700" fill="#9a5f08">accesorio</text>
+
+    <text x="560" y="800" font-weight="700" fill="#9a5f08">Conducto pancreático</text>
+    <text x="560" y="826" font-weight="700" fill="#9a5f08">principal</text>
+
+    <line x1="380" y1="872" x2="304" y2="680" stroke="#6b6b6b" stroke-width="2"/>
+    <text x="370" y="900" font-weight="700" fill="#4d7a17">Ampolla</text>
+    <text x="370" y="926" font-weight="700" fill="#4d7a17">hepatopancreática</text>
+
+    <text x="30" y="560" font-weight="700" fill="#b03b3b">Papila</text>
+    <text x="30" y="586" font-weight="700" fill="#b03b3b">duodenal mayor</text>
+    <line x1="140" y1="596" x2="226" y2="636" stroke="#6b6b6b" stroke-width="2"/>
+
+    <text x="30" y="320" font-weight="700" fill="#b03b3b">Papila</text>
+    <text x="30" y="346" font-weight="700" fill="#b03b3b">duodenal menor</text>
+    <line x1="140" y1="356" x2="244" y2="396" stroke="#6b6b6b" stroke-width="2"/>
+
+    <text x="30" y="90" font-size="21" fill="#7a4a4a" font-weight="700">Luz del duodeno</text>
+    <text x="30" y="114" font-size="21" fill="#7a4a4a" font-weight="700">(2ª porción)</text>
+
+    <text x="980" y="955" text-anchor="end" font-size="22" font-weight="700" fill="#8a6300">Cabeza del páncreas</text>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Inter, sans-serif">
+  <defs>
+    <path id="prox" d="M 486 245 L 330 241 C 268 240, 255 262, 255 312 L 255 352" fill="none"/>
+    <path id="dist" d="M 255 352 L 255 405 C 255 448, 282 454, 330 454 L 612 454 C 660 454, 672 432, 672 396 L 672 352 C 672 322, 688 312, 712 318" fill="none" stroke-linejoin="round"/>
+    <g id="n" font-size="20" font-weight="800" fill="#fff" text-anchor="middle"></g>
+  </defs>
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="#ffffff" stroke="#ffc2cf" stroke-width="4"/>
+
+  <g transform="translate(30,20) scale(0.92)">
+    <!-- Aorta -->
+    <rect x="580" y="110" width="40" height="680" rx="20" fill="#e0302f" opacity="0.35"/>
+    <!-- Páncreas -->
+    <path d="M 295 300 C 295 283, 330 280, 380 282 C 440 284, 480 278, 520 268 C 600 248, 700 232, 790 222 C 830 218, 850 222, 850 236 C 850 252, 820 258, 790 262 C 720 270, 680 280, 640 288 C 600 296, 578 306, 570 330 C 562 360, 570 392, 560 410 C 540 422, 480 420, 420 418 C 330 418, 295 400, 295 360 Z" fill="#fbe7b5" stroke="#d6a640" stroke-width="4"/>
+    <!-- A. gastroduodenal (pasa por detrás de la 1ª porción) -->
+    <path d="M 448 166 C 440 200, 434 250, 428 292" fill="none" stroke="#c62828" stroke-width="11" stroke-linecap="round"/>
+    <!-- Duodeno: territorios -->
+    <use href="#prox" stroke="#d98a3d" stroke-width="66"/>
+    <use href="#prox" stroke="#fbd3a6" stroke-width="52"/>
+    <use href="#dist" stroke="#9c6fc4" stroke-width="66"/>
+    <use href="#dist" stroke="#e3d0f3" stroke-width="52"/>
+    <!-- Límite: entrada del colédoco -->
+    <line x1="200" y1="352" x2="300" y2="352" stroke="#444" stroke-width="3" stroke-dasharray="7 5"/>
+    <circle cx="284" cy="352" r="8" fill="#1f7a46" stroke="#fff" stroke-width="2"/>
+
+    <!-- Tronco celíaco y ramas -->
+    <path d="M 600 200 L 600 156" stroke="#8e1b1b" stroke-width="16" stroke-linecap="round"/>
+    <path d="M 600 156 C 600 120, 596 100, 590 70" fill="none" stroke="#c62828" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 600 156 C 680 150, 760 140, 820 160 C 860 172, 890 150, 930 160" fill="none" stroke="#c62828" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 600 156 C 540 158, 490 160, 448 166" fill="none" stroke="#c62828" stroke-width="11" stroke-linecap="round"/>
+    <path d="M 448 166 C 420 140, 400 110, 385 60" fill="none" stroke="#c62828" stroke-width="9" stroke-linecap="round"/>
+    <!-- A. supraduodenal -->
+    <path d="M 444 196 C 410 196, 380 200, 350 210" fill="none" stroke="#c62828" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- A. pancreaticoduodenales superiores -->
+    <path d="M 428 292 C 360 298, 305 318, 300 372 C 298 388, 302 396, 306 402" fill="none" stroke="#c62828" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 432 290 C 390 306, 342 330, 336 372 C 334 386, 336 392, 340 398" fill="none" stroke="#c62828" stroke-width="7" stroke-linecap="round" stroke-dasharray="12 7"/>
+    <!-- vasos rectos al duodeno -->
+    <g stroke="#c62828" stroke-width="4" stroke-linecap="round">
+      <line x1="302" y1="330" x2="284" y2="328"/><line x1="299" y1="366" x2="284" y2="366"/><line x1="320" y1="306" x2="300" y2="296"/>
+      <line x1="360" y1="410" x2="360" y2="424"/><line x1="400" y1="412" x2="400" y2="424"/>
+    </g>
+
+    <!-- AMS -->
+    <path d="M 600 322 C 598 420, 592 560, 590 790" fill="none" stroke="#c62828" stroke-width="16" stroke-linecap="round"/>
+    <!-- A. pancreaticoduodenal inferior -->
+    <path d="M 598 402 C 560 408, 500 410, 440 408" fill="none" stroke="#c62828" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 440 408 C 380 412, 330 412, 306 402" fill="none" stroke="#c62828" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 440 408 C 400 402, 362 400, 340 398" fill="none" stroke="#c62828" stroke-width="7" stroke-linecap="round" stroke-dasharray="12 7"/>
+    <!-- Anastomosis -->
+    <circle cx="306" cy="402" r="11" fill="none" stroke="#ff4354" stroke-width="4"/>
+    <circle cx="340" cy="398" r="11" fill="none" stroke="#ff4354" stroke-width="4"/>
+
+    <!-- Marcadores numerados -->
+    <g font-size="21" font-weight="800" text-anchor="middle">
+      <circle cx="640" cy="200" r="19" fill="#ff4354"/><text x="640" y="208" fill="#fff">1</text>
+      <circle cx="530" cy="130" r="19" fill="#ff4354"/><text x="530" y="138" fill="#fff">2</text>
+      <circle cx="476" cy="226" r="19" fill="#ff4354"/><text x="476" y="234" fill="#fff">3</text>
+      <circle cx="380" cy="168" r="19" fill="#ff4354"/><text x="380" y="176" fill="#fff">4</text>
+      <circle cx="372" cy="326" r="19" fill="#ff4354"/><text x="372" y="334" fill="#fff">5</text>
+      <circle cx="636" cy="560" r="19" fill="#ff4354"/><text x="636" y="568" fill="#fff">6</text>
+      <circle cx="510" cy="380" r="19" fill="#ff4354"/><text x="510" y="388" fill="#fff">7</text>
+      <circle cx="250" cy="430" r="19" fill="#ff4354"/><text x="250" y="438" fill="#fff">8</text>
+    </g>
+    <g font-size="19" fill="#555">
+      <text x="700" y="140">A. esplénica</text>
+      <text x="320" y="56">A. hepática propia</text>
+      <text x="40" y="346" font-size="18" fill="#1f7a46" font-weight="700">Entrada del</text>
+      <text x="40" y="368" font-size="18" fill="#1f7a46" font-weight="700">colédoco</text>
+    </g>
+  </g>
+
+  <!-- Leyenda -->
+  <line x1="40" y1="760" x2="960" y2="760" stroke="#f3c1cc" stroke-width="3"/>
+  <g font-size="21" fill="#2b2b2b">
+    <g font-weight="800" fill="#ff4354">
+      <text x="40" y="800">1</text><text x="40" y="834">2</text><text x="40" y="868">3</text><text x="40" y="902">4</text>
+      <text x="500" y="800">5</text><text x="500" y="834">6</text><text x="500" y="868">7</text><text x="500" y="902">8</text>
+    </g>
+    <text x="66" y="800">Tronco celíaco</text>
+    <text x="66" y="834">A. hepática común</text>
+    <text x="66" y="868">A. gastroduodenal</text>
+    <text x="66" y="902">A. supraduodenal</text>
+    <text x="526" y="800">A. pancreaticoduodenal superior</text>
+    <text x="526" y="834">A. mesentérica superior (AMS)</text>
+    <text x="526" y="868">A. pancreaticoduodenal inferior</text>
+    <text x="526" y="902">Anastomosis (arcadas)</text>
+  </g>
+  <g font-size="18" fill="#444">
+    <rect x="40" y="928" width="30" height="22" rx="6" fill="#fbd3a6" stroke="#d98a3d" stroke-width="3"/>
+    <text x="78" y="946">Territorio del tronco celíaco</text>
+    <rect x="345" y="928" width="30" height="22" rx="6" fill="#e3d0f3" stroke="#9c6fc4" stroke-width="3"/>
+    <text x="383" y="946">Territorio de la AMS</text>
+    <line x1="600" y1="939" x2="640" y2="939" stroke="#c62828" stroke-width="6"/>
+    <text x="648" y="946">anterior</text>
+    <line x1="740" y1="939" x2="780" y2="939" stroke="#c62828" stroke-width="6" stroke-dasharray="9 5"/>
+    <text x="788" y="946">posterior</text>
+  </g>
+</svg>

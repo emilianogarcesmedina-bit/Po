@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Inter, sans-serif">
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="#ffffff" stroke="#ffc2cf" stroke-width="4"/>
+  <line x1="500" y1="40" x2="500" y2="880" stroke="#f3c1cc" stroke-width="3" stroke-dasharray="8 8"/>
+
+  <text x="250" y="70" text-anchor="middle" font-size="30" font-weight="800" fill="#2e8b57">Normal</text>
+  <text x="750" y="70" text-anchor="middle" font-size="30" font-weight="800" fill="#ff4354">Síndrome de la AMS</text>
+  <g font-size="18" fill="#888" font-weight="700">
+    <text x="30" y="110">◀ Ant.</text><text x="470" y="110" text-anchor="end">Post. ▶</text>
+    <text x="530" y="110">◀ Ant.</text><text x="970" y="110" text-anchor="end">Post. ▶</text>
+  </g>
+
+  <!-- Panel normal -->
+  <g>
+    <g fill="#efe9e1" stroke="#cbbfb1" stroke-width="3">
+      <rect x="360" y="150" width="100" height="120" rx="14"/><rect x="360" y="290" width="100" height="120" rx="14"/>
+      <rect x="360" y="430" width="100" height="120" rx="14"/><rect x="360" y="570" width="100" height="120" rx="14"/>
+    </g>
+    <g font-size="22" font-weight="700" fill="#9a8b7a" text-anchor="middle"><text x="410" y="218">L1</text><text x="410" y="358">L2</text><text x="410" y="498">L3</text><text x="410" y="638">L4</text></g>
+    <rect x="270" y="130" width="70" height="720" rx="35" fill="#e0302f"/>
+    <path d="M 272 220 C 220 250, 160 320, 140 420 C 125 500, 118 640, 112 820" fill="none" stroke="#c62828" stroke-width="24" stroke-linecap="round"/>
+    <path d="M 272 330 A 110 110 0 0 1 192 300" fill="none" stroke="#2e8b57" stroke-width="4" stroke-dasharray="7 5"/>
+    <text x="178" y="408" font-size="22" font-weight="800" fill="#2e8b57">38–65°</text>
+    <circle cx="205" cy="500" r="56" fill="#f7b6b2" stroke="#d9534f" stroke-width="6"/>
+    <circle cx="205" cy="500" r="30" fill="#fde3e1"/>
+    <text x="305" y="890" text-anchor="middle" font-size="20" font-weight="700" fill="#c62828">Aorta</text>
+    <text x="90" y="860" font-size="20" font-weight="700" fill="#c62828">AMS</text>
+    <text x="205" y="600" text-anchor="middle" font-size="19" font-weight="700" fill="#b04a48">3ª porción</text>
+    <text x="205" y="624" text-anchor="middle" font-size="19" fill="#555">luz libre</text>
+  </g>
+
+  <!-- Panel síndrome -->
+  <g>
+    <g fill="#efe9e1" stroke="#cbbfb1" stroke-width="3">
+      <rect x="860" y="150" width="100" height="120" rx="14"/><rect x="860" y="290" width="100" height="120" rx="14"/>
+      <rect x="860" y="430" width="100" height="120" rx="14"/><rect x="860" y="570" width="100" height="120" rx="14"/>
+    </g>
+    <g font-size="22" font-weight="700" fill="#9a8b7a" text-anchor="middle"><text x="910" y="218">L1</text><text x="910" y="358">L2</text><text x="910" y="498">L3</text><text x="910" y="638">L4</text></g>
+    <rect x="770" y="130" width="70" height="720" rx="35" fill="#e0302f"/>
+    <path d="M 772 220 C 752 270, 738 340, 734 420 C 730 520, 722 660, 716 820" fill="none" stroke="#c62828" stroke-width="24" stroke-linecap="round"/>
+    <path d="M 772 330 A 110 110 0 0 1 742 326" fill="none" stroke="#ff4354" stroke-width="4"/>
+    <text x="640" y="300" font-size="22" font-weight="800" fill="#ff4354">&lt; 25°</text>
+    <line x1="700" y1="300" x2="752" y2="318" stroke="#ff4354" stroke-width="2"/>
+    <!-- Duodeno comprimido -->
+    <ellipse cx="756" cy="500" rx="12" ry="62" fill="#f7b6b2" stroke="#d9534f" stroke-width="5"/>
+    <path d="M 700 470 L 732 488 M 700 530 L 732 512" stroke="#ff4354" stroke-width="4"/>
+    <!-- Duodeno proximal dilatado -->
+    <path d="M 560 380 C 560 300, 680 290, 690 380 C 700 460, 640 520, 600 520 C 560 520, 560 450, 560 380 Z" fill="#f7b6b2" stroke="#d9534f" stroke-width="5" opacity="0.9"/>
+    <path d="M 655 470 C 690 485, 720 492, 744 496" fill="none" stroke="#d9534f" stroke-width="6" stroke-dasharray="8 6"/>
+    <text x="625" y="402" text-anchor="middle" font-size="18" font-weight="700" fill="#8e2a27">Duodeno</text>
+    <text x="625" y="424" text-anchor="middle" font-size="18" font-weight="700" fill="#8e2a27">proximal</text>
+    <text x="625" y="446" text-anchor="middle" font-size="18" font-weight="700" fill="#8e2a27">dilatado</text>
+    <text x="805" y="890" text-anchor="middle" font-size="20" font-weight="700" fill="#c62828">Aorta</text>
+    <text x="640" y="860" font-size="20" font-weight="700" fill="#c62828">AMS</text>
+    <line x1="640" y1="585" x2="748" y2="540" stroke="#6b6b6b" stroke-width="2"/><text x="560" y="610" font-size="19" font-weight="700" fill="#b04a48">3ª porción</text>
+    <text x="560" y="634" font-size="19" fill="#555">comprimida</text>
+  </g>
+
+  <text x="500" y="945" text-anchor="middle" font-size="22" fill="#2b2b2b">La 3ª porción queda atrapada entre la <tspan font-weight="800">AMS</tspan> y la <tspan font-weight="800">aorta</tspan></text>
+  <text x="500" y="975" text-anchor="middle" font-size="20" fill="#ff4354" font-weight="700">→ obstrucción intestinal alta</text>
+</svg>

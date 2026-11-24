@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Inter, sans-serif">
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="#ffffff" stroke="#ffc2cf" stroke-width="4"/>
+
+  <!-- Orientación -->
+  <g font-size="20" fill="#888" font-weight="700">
+    <text x="40" y="60">◀ Anterior</text>
+    <text x="960" y="60" text-anchor="end">Posterior ▶</text>
+  </g>
+
+  <!-- Pared abdominal anterior -->
+  <path d="M 110 100 C 90 350, 90 650, 120 920" fill="none" stroke="#e8c9b8" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Columna -->
+  <g fill="#efe9e1" stroke="#cbbfb1" stroke-width="3">
+    <rect x="760" y="100" width="150" height="110" rx="16"/>
+    <rect x="760" y="230" width="150" height="110" rx="16"/>
+    <rect x="760" y="360" width="150" height="110" rx="16"/>
+    <rect x="760" y="490" width="150" height="110" rx="16"/>
+    <rect x="760" y="620" width="150" height="110" rx="16"/>
+  </g>
+  <g font-size="24" font-weight="700" fill="#9a8b7a" text-anchor="middle">
+    <text x="835" y="164">T12</text><text x="835" y="294">L1</text><text x="835" y="424">L2</text><text x="835" y="554">L3</text><text x="835" y="684">L4</text>
+  </g>
+
+  <!-- Aorta -->
+  <rect x="650" y="80" width="80" height="840" rx="40" fill="#e0302f"/>
+  <!-- Tronco celíaco -->
+  <path d="M 652 210 C 610 200, 580 190, 540 170" fill="none" stroke="#c62828" stroke-width="22" stroke-linecap="round"/>
+  <!-- AMS -->
+  <path d="M 652 280 C 600 300, 520 370, 478 470 C 445 560, 430 680, 420 860" fill="none" stroke="#c62828" stroke-width="26" stroke-linecap="round"/>
+  <!-- Ángulo -->
+  <path d="M 652 400 A 120 120 0 0 1 562 360" fill="none" stroke="#ff4354" stroke-width="4" stroke-dasharray="8 6"/>
+
+  <!-- Vena renal izquierda -->
+  <circle cx="610" cy="345" r="22" fill="#2f6fd1" stroke="#1d4f9e" stroke-width="3"/>
+
+  <!-- Páncreas -->
+  <path d="M 300 290 C 360 262, 470 258, 545 270 C 575 276, 560 320, 520 352 C 480 386, 380 396, 320 376 C 270 358, 262 310, 300 290 Z" fill="#fbdc96" stroke="#d6a640" stroke-width="4"/>
+  <!-- Proceso unciforme -->
+  <path d="M 560 400 C 590 392, 625 396, 640 410 C 630 432, 590 436, 560 428 Z" fill="#fbdc96" stroke="#d6a640" stroke-width="4"/>
+
+  <!-- 3ª porción del duodeno (corte) -->
+  <circle cx="566" cy="530" r="72" fill="#f7b6b2" stroke="#d9534f" stroke-width="7"/>
+  <circle cx="566" cy="530" r="40" fill="#fde3e1" stroke="#e58b88" stroke-width="3"/>
+
+  <!-- Raíz del mesenterio / asas -->
+  <g fill="#f6d1c3" stroke="#d99a86" stroke-width="3">
+    <ellipse cx="260" cy="640" rx="70" ry="50"/>
+    <ellipse cx="250" cy="760" rx="72" ry="50"/>
+    <ellipse cx="300" cy="530" rx="55" ry="42"/>
+  </g>
+
+  <!-- Etiquetas -->
+  <g font-size="23" fill="#2b2b2b">
+    <text x="690" y="960" text-anchor="middle" font-weight="700" fill="#c62828">Aorta</text>
+
+    <text x="350" y="900" font-weight="700" fill="#c62828">AMS</text>
+    <text x="350" y="926" font-size="20" fill="#555">(por delante)</text>
+
+    <text x="528" y="168" font-size="20" fill="#c62828" font-weight="700" text-anchor="end">Tronco celíaco</text>
+
+    <text x="420" y="328" text-anchor="middle" font-weight="700" fill="#8a6300">Páncreas</text>
+
+    <line x1="390" y1="430" x2="556" y2="414" stroke="#6b6b6b" stroke-width="2"/>
+    <text x="270" y="424" font-size="19" fill="#8a6300" font-weight="700">Proceso unciforme</text>
+
+    <line x1="560" y1="660" x2="566" y2="604" stroke="#6b6b6b" stroke-width="2"/>
+    <text x="470" y="690" font-weight="700" fill="#ff4354">3ª porción</text>
+    <text x="470" y="716" font-weight="700" fill="#ff4354">del duodeno</text>
+
+    <line x1="560" y1="230" x2="600" y2="326" stroke="#6b6b6b" stroke-width="2"/>
+    <text x="440" y="226" font-size="19" fill="#2f6fd1" font-weight="700">V. renal izq.</text>
+
+    <text x="150" y="476" font-size="20" fill="#9a5a44">Asas de intestino</text>
+    <text x="150" y="500" font-size="20" fill="#9a5a44">delgado</text>
+
+    <text x="40" y="580" font-size="20" fill="#9a7a6a" transform="rotate(-90 60 580)" text-anchor="middle">Pared abdominal</text>
+  </g>
+  <g>
+    <rect x="40" y="955" width="16" height="16" rx="3" fill="none" stroke="#ff4354" stroke-width="3" stroke-dasharray="4 3"/>
+    <text x="66" y="969" font-size="19" fill="#555">Ángulo aortomesentérico (normal ≈ 38–65°)</text>
+  </g>
+</svg>

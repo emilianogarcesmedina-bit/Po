@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Inter, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b6b6b"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="#ffffff" stroke="#ffc2cf" stroke-width="4"/>
+
+  <!-- Parasimpática -->
+  <rect x="40" y="40" width="430" height="58" rx="29" fill="#7b4bb7"/>
+  <text x="255" y="78" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">Parasimpática</text>
+  <rect x="40" y="110" width="430" height="110" rx="22" fill="#efe6fa" stroke="#7b4bb7" stroke-width="4"/>
+  <text x="255" y="162" text-anchor="middle" font-size="26" font-weight="800" fill="#4e2a85">Nervio vago</text>
+  <text x="255" y="195" text-anchor="middle" font-size="20" fill="#444">(NC X)</text>
+
+  <!-- Simpática -->
+  <rect x="530" y="40" width="430" height="58" rx="29" fill="#e07b20"/>
+  <text x="745" y="78" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">Simpática</text>
+  <rect x="530" y="110" width="430" height="110" rx="22" fill="#fdeedd" stroke="#e07b20" stroke-width="4"/>
+  <text x="745" y="152" text-anchor="middle" font-size="23" font-weight="800" fill="#9a4d08">N. esplácnicos</text>
+  <text x="745" y="182" text-anchor="middle" font-size="23" font-weight="800" fill="#9a4d08">(abdominopélvicos)</text>
+  <text x="745" y="208" text-anchor="middle" font-size="19" fill="#444">mayor y menor</text>
+
+  <path d="M 255 220 L 400 275" stroke="#6b6b6b" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+  <path d="M 745 220 L 600 275" stroke="#6b6b6b" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+
+  <rect x="170" y="285" width="660" height="90" rx="45" fill="#f4c542" stroke="#c99a12" stroke-width="4"/>
+  <text x="500" y="340" text-anchor="middle" font-size="26" font-weight="800" fill="#5a4300">Plexos celíaco y mesentérico superior</text>
+  <line x1="500" y1="375" x2="500" y2="420" stroke="#6b6b6b" stroke-width="6" marker-end="url(#ar)"/>
+
+  <rect x="130" y="430" width="740" height="100" rx="22" fill="#fff6d6" stroke="#c99a12" stroke-width="4"/>
+  <text x="500" y="472" text-anchor="middle" font-size="24" font-weight="800" fill="#5a4300">Plexos periarteriales</text>
+  <text x="500" y="506" text-anchor="middle" font-size="21" fill="#444">de las arterias pancreaticoduodenales</text>
+  <line x1="500" y1="530" x2="500" y2="575" stroke="#6b6b6b" stroke-width="6" marker-end="url(#ar)"/>
+
+  <rect x="330" y="585" width="340" height="80" rx="40" fill="#f7b6b2" stroke="#d9534f" stroke-width="4"/>
+  <text x="500" y="637" text-anchor="middle" font-size="30" font-weight="800" fill="#8e2a27">Duodeno</text>
+
+  <!-- Dolor referido -->
+  <line x1="40" y1="700" x2="960" y2="700" stroke="#f3c1cc" stroke-width="3"/>
+  <g transform="translate(90,715)">
+    <path d="M 60 0 C 40 40, 30 120, 50 260 L 230 260 C 250 120, 240 40, 220 0 Z" fill="#fde3d6" stroke="#d9a08a" stroke-width="4"/>
+    <path d="M 70 70 C 110 110, 170 110, 210 70" fill="none" stroke="#d9a08a" stroke-width="3"/>
+    <rect x="95" y="60" width="90" height="62" fill="#ff4354" opacity="0.85"/>
+    <g stroke="#b9a094" stroke-width="2" stroke-dasharray="6 5">
+      <line x1="95" y1="20" x2="95" y2="250"/><line x1="185" y1="20" x2="185" y2="250"/>
+      <line x1="45" y1="122" x2="235" y2="122"/><line x1="45" y1="185" x2="235" y2="185"/>
+    </g>
+    <circle cx="140" cy="155" r="4" fill="#b9a094"/>
+  </g>
+  <text x="420" y="790" font-size="30" font-weight="800" fill="#ff4354">Dolor visceral referido</text>
+  <text x="420" y="832" font-size="26" fill="#2b2b2b">a la <tspan font-weight="800">región epigástrica</tspan></text>
+  <text x="420" y="880" font-size="19" fill="#555">Las fibras aferentes viscerales del dolor</text>
+  <text x="420" y="906" font-size="19" fill="#555">acompañan a las fibras simpáticas.</text>
+</svg>

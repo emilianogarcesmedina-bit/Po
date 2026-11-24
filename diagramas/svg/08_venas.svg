@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Inter, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f6fd1"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="996" height="996" rx="36" fill="#ffffff" stroke="#ffc2cf" stroke-width="4"/>
+
+  <!-- Duodeno -->
+  <rect x="330" y="50" width="340" height="80" rx="40" fill="#f7b6b2" stroke="#d9534f" stroke-width="4"/>
+  <text x="500" y="102" text-anchor="middle" font-size="30" font-weight="800" fill="#8e2a27">Duodeno</text>
+  <line x1="500" y1="130" x2="500" y2="180" stroke="#2f6fd1" stroke-width="6" marker-end="url(#ar)"/>
+
+  <!-- Venas duodenales -->
+  <rect x="150" y="190" width="700" height="120" rx="24" fill="#e7f0fc" stroke="#2f6fd1" stroke-width="4"/>
+  <text x="500" y="240" text-anchor="middle" font-size="28" font-weight="800" fill="#1d4f9e">Venas duodenales</text>
+  <text x="500" y="278" text-anchor="middle" font-size="22" fill="#2b2b2b">siguen a las arterias (pancreaticoduodenales sup. e inf.)</text>
+
+  <path d="M 300 310 L 180 390" stroke="#2f6fd1" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+  <line x1="500" y1="310" x2="500" y2="390" stroke="#2f6fd1" stroke-width="6" marker-end="url(#ar)"/>
+  <path d="M 700 310 L 820 390" stroke="#2f6fd1" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+
+  <!-- Tres vías -->
+  <rect x="40" y="400" width="280" height="150" rx="22" fill="#ffffff" stroke="#2f6fd1" stroke-width="4" stroke-dasharray="10 6"/>
+  <text x="180" y="452" text-anchor="middle" font-size="25" font-weight="800" fill="#1d4f9e">Directamente</text>
+  <text x="180" y="488" text-anchor="middle" font-size="19" fill="#444">p. ej., v. pancreatico-</text>
+  <text x="180" y="514" text-anchor="middle" font-size="19" fill="#444">duodenal sup. posterior</text>
+
+  <rect x="360" y="400" width="280" height="150" rx="22" fill="#d6e5fb" stroke="#2f6fd1" stroke-width="4"/>
+  <text x="500" y="462" text-anchor="middle" font-size="25" font-weight="800" fill="#1d4f9e">Vena mesentérica</text>
+  <text x="500" y="494" text-anchor="middle" font-size="25" font-weight="800" fill="#1d4f9e">superior</text>
+
+  <rect x="680" y="400" width="280" height="150" rx="22" fill="#d6e5fb" stroke="#2f6fd1" stroke-width="4"/>
+  <text x="820" y="482" text-anchor="middle" font-size="25" font-weight="800" fill="#1d4f9e">Vena esplénica</text>
+
+  <path d="M 180 550 L 330 640" stroke="#2f6fd1" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+  <line x1="500" y1="550" x2="500" y2="630" stroke="#2f6fd1" stroke-width="6" marker-end="url(#ar)"/>
+  <path d="M 820 550 L 670 640" stroke="#2f6fd1" stroke-width="6" fill="none" marker-end="url(#ar)"/>
+  <text x="770" y="606" font-size="18" fill="#555" font-style="italic">se unen detrás del</text>
+  <text x="770" y="628" font-size="18" fill="#555" font-style="italic">cuello del páncreas</text>
+
+  <!-- Vena porta -->
+  <rect x="230" y="645" width="540" height="110" rx="55" fill="#2f6fd1"/>
+  <text x="500" y="713" text-anchor="middle" font-size="34" font-weight="800" fill="#ffffff">Vena porta hepática</text>
+  <line x1="500" y1="755" x2="500" y2="815" stroke="#2f6fd1" stroke-width="6" marker-end="url(#ar)"/>
+
+  <!-- Hígado -->
+  <path d="M 340 830 C 420 812, 640 812, 680 840 C 700 856, 690 900, 640 915 C 560 940, 420 935, 360 905 C 320 885, 318 842, 340 830 Z" fill="#c97b63" stroke="#9a5340" stroke-width="4"/>
+  <text x="510" y="883" text-anchor="middle" font-size="28" font-weight="800" fill="#ffffff">Hígado</text>
+</svg>
